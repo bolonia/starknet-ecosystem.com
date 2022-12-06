@@ -52,6 +52,25 @@ export const allProjects: Array<Project> = [
   },
   {
     id: "bf58edd8-fb46-4066-9ed9-5bbaa683c1f5",
+    name: "Bubbleswap",
+    shortName: "Bubble",
+    description:
+      "An NFT acting as Proof of OG on StarkNet",
+    tags: ["nft", "defi", "gamefi", "governance"],
+    image: "0xStarks.png",
+    network: {
+      website: "",
+      github: "",
+      twitter: "https://twitter.com/Gen0_Stark",
+      medium: "",
+      discord: "",
+      telegram: "",
+    },
+    isLive: false,
+    isTestnetLive: false,
+  },
+  {
+    id: "bf58edd8-fb46-4066-9ed9-5bbaa683c1f5",
     name: "0xStarks",
     shortName: "Starks",
     description:
