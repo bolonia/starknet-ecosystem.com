@@ -29,7 +29,7 @@ const TwitterMetrics: FC = () => {
       <Card>
         <Tabs variant="line" colorScheme="brand">
           <TabList>
-            <Tab>#starknet</Tab>
+            <Tab>#ethereum</Tab>
             <Tab>#starkware</Tab>
             <Tab>#cairo</Tab>
           </TabList>
