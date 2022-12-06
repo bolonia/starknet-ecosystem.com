@@ -11,12 +11,12 @@ import CardContentLoading from "../card/CardContentLoading";
 import TwitterTrend from "./twitter-trend";
 
 const TwitterMetrics: FC = () => {
-  const [starknetCounts, setStarknetCounts] = useState<TweetCount[]>();
+  const [ethereumCounts, setethereumCounts] = useState<TweetCount[]>();
   const [starkwareCounts, setStarkwareCounts] = useState<TweetCount[]>();
   const [cairoCounts, setCairoCounts] = useState<TweetCount[]>();
 
   useEffect(() => {
-    MetricsApi.fetchTweetCounts("ethereum").then(setStarknetCounts);
+    MetricsApi.fetchTweetCounts("ethereum").then(setethereumCounts);
     MetricsApi.fetchTweetCounts("starkware").then(setStarkwareCounts);
     MetricsApi.fetchTweetCounts("cairo").then(setCairoCounts);
   }, []);
@@ -35,7 +35,7 @@ const TwitterMetrics: FC = () => {
           </TabList>
 
           <TabPanels>
-            <TabPanel p={0}>{renderCard(starknetCounts)}</TabPanel>
+            <TabPanel p={0}>{renderCard(ethereumCounts)}</TabPanel>
             <TabPanel p={0}>{renderCard(starkwareCounts)}</TabPanel>
             <TabPanel p={0}>{renderCard(cairoCounts)}</TabPanel>
           </TabPanels>
