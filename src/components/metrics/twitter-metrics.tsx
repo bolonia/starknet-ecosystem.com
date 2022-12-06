@@ -16,7 +16,7 @@ const TwitterMetrics: FC = () => {
   const [cairoCounts, setCairoCounts] = useState<TweetCount[]>();
 
   useEffect(() => {
-    MetricsApi.fetchTweetCounts("starknet").then(setStarknetCounts);
+    MetricsApi.fetchTweetCounts("ethereum").then(setStarknetCounts);
     MetricsApi.fetchTweetCounts("starkware").then(setStarkwareCounts);
     MetricsApi.fetchTweetCounts("cairo").then(setCairoCounts);
   }, []);
