@@ -51,7 +51,7 @@ export const allProjects: Array<Project> = [
     isTestnetLive: true,
   },
   {
-    id: "25d886a0-dee0-4651-904c-ff97309efd6b",
+    id: "c13b2cef-4d1c-4a5a-93a8-7f18dc4ae74d",
     name: "Bubbleswap",
     shortName: "Bubble",
     description:
