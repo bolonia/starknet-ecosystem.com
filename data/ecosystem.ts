@@ -66,13 +66,13 @@ export const allProjects: Array<Project> = [
       discord: "",
       telegram: "",
     },
-    isLive: false,
-    isTestnetLive: false,
+    isLive: true,
+    isTestnetLive: true,
   },
   {
     id: "bf58edd8-fb46-4066-9ed9-5bbaa683c1f5",
-    name: "0xStarks",
-    shortName: "Starks",
+    name: "Soonswap",
+    shortName: "Soon",
     description:
       "An NFT acting as Proof of OG on StarkNet",
     tags: ["nft", "defi", "gamefi", "governance"],
@@ -483,25 +483,7 @@ export const allProjects: Array<Project> = [
     isLive: false,
     isTestnetLive: false,
   },
-  {
-    id: "d95046cb-7ce0-4f3f-9d1c-7214acc30bc7",
-    name: "mySwap",
-    shortName: "mySwap",
-    description:
-      "mySwap is the first AMM built on StarkNet.\nYou can swap ETH with USDC and DAI, and deposit your cryptos in liquidity pools.\nCheck our website and follow us on Twitter for future announcements.",
-    tags: ["defi", "mobile"],
-    image: "myswap.png",
-    network: {
-      website: "https://www.myswap.xyz/#/",
-      github: "",
-      twitter: "https://twitter.com/mySwapxyz",
-      medium: "",
-      discord: "https://discord.gg/tZgJnydyZr",
-      telegram: "https://t.me/mySwapxyz",
-    },
-    isLive: true,
-    isTestnetLive: true,
-  },
+
   {
     id: "4b8593f2-5c40-48b4-93a8-1cfd1df9dd5e",
     name: "Sandclock",
